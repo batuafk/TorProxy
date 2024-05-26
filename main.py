@@ -16,8 +16,6 @@ class Tor:
                 "ConstrainedSockets 1\n"
                 "ControlPort auto\n"
                 "CookieAuthentication 1\n"
-                "DataDirectory working_data\n"
-                "DataDirectoryGroupReadable 1\n"
                 "LogMessageDomains 1\n"
                 "HardwareAccel 1\n"
                 "ClientOnly 1\n"
