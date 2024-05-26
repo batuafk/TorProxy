@@ -8,6 +8,6 @@ git clone https://github.com/Bt08s/TorProxy.git
 cd TorProxy
 python main.py
 
-sudo apt install torsocks
+sudo apt install torsocks -y
 torsocks <appname>
 ```
