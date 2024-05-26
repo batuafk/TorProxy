@@ -10,4 +10,9 @@ python main.py
 
 sudo apt install torsocks -y
 torsocks <appname>
+
+Examples:
+  - torsocks firefox
+  - torsocks ./script.sh
+  - torsocks curl https://api.ipify.org
 ```
