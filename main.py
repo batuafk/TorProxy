@@ -4,11 +4,6 @@ import requests
 import psutil
 import time
 
-# HTTPProxy
-# HTTPSProxy
-# Socks4Proxy
-# Socks5Proxy
-
 class Tor:
     def write_torrc():
         with open("torrc", "w") as file:
