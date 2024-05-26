@@ -1,0 +1,28 @@
+BandwidthRate 2 GBytes
+BandwidthBurst 2 GBytes
+PerConnBWRate 2 GByte
+ClientTransportPlugin obfs4 exec obfs4/obfs4proxy
+ConnLimit 65535
+ConstrainedSockets 1
+ControlPort auto
+CookieAuthentication 1
+DataDirectory working_data
+DataDirectoryGroupReadable 1
+LogMessageDomains 1
+HardwareAccel 1
+ClientOnly 1
+SocksPort auto IsolateClientAddr IsolateSOCKSAuth IsolateClientProtocol IsolateDestPort IsolateDestAddr KeepAliveIsolateSOCKSAuth PreferSOCKSNoAuth
+TokenBucketRefillInterval 100 msec
+UseGuardFraction 1
+NumEntryGuards 1
+NumDirectoryGuards 1
+SafeSocks 1
+TestSocks 1
+WarnUnsafeSocks 1
+FastFirstHopPK 1
+DNSPort auto IsolateClientAddr IsolateSOCKSAuth IsolateClientProtocol IsolateDestPort IsolateDestAddr KeepAliveIsolateSOCKSAuth PreferSOCKSNoAuth
+AllowSingleHopCircuits 1
+OptimisticData 1
+ServerDNSRandomizeCase 1
+GeoIPFile data/geoip
+GeoIPv6File data/geoip6
